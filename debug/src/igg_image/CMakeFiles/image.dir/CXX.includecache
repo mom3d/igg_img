@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/med/dev/igg_image/src/igg_image/image.cc
+image.h
+/Users/med/dev/igg_image/src/igg_image/image.h
+iostream
+-
+io_tools.h
+/Users/med/dev/igg_image/src/igg_image/io_tools.h
+
+/Users/med/dev/igg_image/src/igg_image/image.h
+string
+-
+vector
+-
+
+/Users/med/dev/igg_image/src/igg_image/io_tools.h
+fstream
+-
+string
+-
+vector
+-
+
